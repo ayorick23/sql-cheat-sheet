@@ -5,6 +5,10 @@ En **SQL**, DDL (_Data Definition Language o Lenguaje de Definición de Datos_) 
 `CREATE`: Este comando se utiliza para crear nuevos objetos de base de datos, como tablas, vistas, índices, etc.
 
 ```sql
+CREATE DATABASE nombre_base_datos;
+```
+
+```sql
 CREATE TABLE nombre_tabla (
     columna1 tipo_datos [restricciones],
     columna2 tipo_datos [restricciones],

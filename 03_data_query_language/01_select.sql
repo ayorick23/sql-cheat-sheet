@@ -10,6 +10,6 @@ FROM Productos;
 SELECT nombre AS 'Nombre del Producto', precio AS PrecioUnitario
 FROM Productos;
 
--- Seleccionar valores únicos (DISTINCT) de ciudades de la tabla 'Clientes'
-SELECT DISTINCT ciudad
-FROM Clientes;
+-- Seleccionar valores únicos (DISTINCT) del stock de la tabla 'Productos'
+SELECT DISTINCT stock
+FROM Productos;
