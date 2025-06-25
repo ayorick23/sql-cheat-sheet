@@ -8,7 +8,7 @@ HAVING COUNT(producto_id) > 1;
 SELECT cliente_id, SUM(total) AS TotalVentasPorCliente
 FROM Pedidos
 GROUP BY cliente_id
-HAVING SUM(total) > 150.00;
+HAVING SUM(total) > 350.00;
 
 -- Encontrar ciudades donde hay más de 1 cliente
 SELECT ciudad, COUNT(cliente_id) AS TotalClientes

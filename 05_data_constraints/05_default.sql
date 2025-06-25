@@ -1,7 +1,7 @@
 CREATE TABLE Pedidos (
     pedido_id INT PRIMARY KEY,
     cliente_id INT NOT NULL,
-    fecha_pedido DATE DEFAULT CURRENT_DATE, -- La fecha por defecto es la fecha actual
+    fecha_pedido DATE DEFAULT GETDATE(), -- La fecha por defecto es la fecha actual
     estado VARCHAR(50) DEFAULT 'Pendiente' -- El estado por defecto es 'Pendiente'
 );
 

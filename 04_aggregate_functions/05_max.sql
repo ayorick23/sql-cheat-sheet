@@ -14,3 +14,8 @@ FROM Pedidos;
 SELECT stock, MAX(precio) AS PrecioMaximoPorStock
 FROM Productos
 GROUP BY stock;
+
+-- Eliminar las tablas de ejemplo
+DROP TABLE Productos;
+DROP TABLE Pedidos;
+DROP TABLE Clientes;

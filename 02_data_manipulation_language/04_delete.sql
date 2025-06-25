@@ -12,4 +12,8 @@ WHERE precio < 50.00;
 
 -- Eliminar todos los productos de la tabla (sin WHERE - ¡CUIDADO!)
 -- Esto vaciará completamente la tabla Productos.
--- DELETE FROM Productos;
+DELETE FROM Productos;
+
+-- Eliminar las tablas de ejemplo
+DROP TABLE Productos;
+DROP TABLE NuevosProductos;

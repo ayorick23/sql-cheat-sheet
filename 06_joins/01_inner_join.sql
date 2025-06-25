@@ -1,4 +1,17 @@
--- Insertar datos de ejemplo si aún no existen
+-- Crear tablas de ejemplo para demostrar JOINs
+CREATE TABLE Departamentos (
+    departamento_id INT PRIMARY KEY,
+    nombre_departamento VARCHAR(50),
+);
+
+CREATE TABLE Empleados (
+    empleado_id INT PRIMARY KEY,
+    nombre VARCHAR(50),
+    departamento_id INT,
+    CONSTRAINT fk_departamento FOREIGN KEY (departamento_id) REFERENCES Departamentos(departamento_id)
+);
+
+-- Insertar datos de ejemplo
 INSERT INTO Empleados (empleado_id, nombre, departamento_id) VALUES (1, 'Ana', 101);
 INSERT INTO Empleados (empleado_id, nombre, departamento_id) VALUES (2, 'Juan', 102);
 INSERT INTO Empleados (empleado_id, nombre, departamento_id) VALUES (3, 'María', 101);

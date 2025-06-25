@@ -18,3 +18,13 @@ VALUES (2, 'Laura Gomez', 25000.00, 22);
 
 -- INSERT INTO Empleados_Check (empleado_id, nombre, salario, edad)
 -- VALUES (4, 'Sofia Castro', 30000.00, 17); -- Error: Edad menor a 18
+
+-- Eliminar tablas de ejemplo
+DROP TABLE Empleados;
+DROP TABLE Usuarios;
+DROP TABLE Productos;
+DROP TABLE Inscripciones;
+DROP TABLE Departamentos;
+DROP TABLE Empleados_FK;
+DROP TABLE Pedidos;
+DROP TABLE Empleados_Check;

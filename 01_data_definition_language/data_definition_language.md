@@ -48,14 +48,14 @@ CREATE TABLE nombre_tabla (
   ADD CONSTRAINT nombre_restriccion TIPO_RESTRICCION (columna);
   ```
 
-`DROP`: Este comando se utiliza para eliminar objetos de la base de datos, como tablas, vistas, índices, etc. Esto borrará la tabla y todos los datos que contiene de forma permanente.
-
-```sql
-DROP TABLE nombre_tabla;
-```
-
 `TRUNCATE`: Este comando se utiliza para eliminar todos los datos de una tabla, pero manteniendo la estructura de la tabla, mientras que `DROP` elimina toda la tabla, incluida su estructura.
 
 ```sql
 TRUNCATE TABLE nombre_tabla;
+```
+
+`DROP`: Este comando se utiliza para eliminar objetos de la base de datos, como tablas, vistas, índices, etc. Esto borrará la tabla y todos los datos que contiene de forma permanente.
+
+```sql
+DROP TABLE nombre_tabla;
 ```
