@@ -1,4 +1,4 @@
-# <img width="35" height="35" src="https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000" alt="sql-server">SQL Cheat Sheet
+# <img width="35" height="35" src="https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000" alt="sql-server"> **SQL Cheat Sheet**
 
 ¡Bienvenido/a a **SQL Cheat Sheet**! Este repositorio es tu guía rápida y práctica para el lenguaje SQL (_Structured Query Language_). Si eres un principiante que está dando sus primeros pasos en bases de datos o un desarrollador experimentado que necesita un recordatorio rápido, ¡aquí encontrarás una referencia concisa y útil!
 
@@ -6,7 +6,7 @@ Aquí hallarás una colección organizada de los comandos, cláusulas y funcione
 
 ## Tabla de Contenidos
 
-- [SQL Cheat Sheet](#sql-cheat-sheet)
+- [ **SQL Cheat Sheet**](#-sql-cheat-sheet)
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [🌎 Acerca de](#-acerca-de)
   - [🚀 ¿Qué encontrarás aquí?](#-qué-encontrarás-aquí)
