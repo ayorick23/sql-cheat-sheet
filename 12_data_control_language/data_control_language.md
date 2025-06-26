@@ -17,15 +17,15 @@ TO usuario1, usuario2, ... -- O TO PUBLIC (todos los usuarios)
 
 ### Privilegios Comunes
 
-- **SELECT:** Permiso para leer datos de una tabla o vista.
-- **INSERT:** Permiso para añadir nuevas filas a una tabla.
-- **UPDATE:** Permiso para modificar filas existentes en una tabla. Se puede especificar a qué columnas.
-- **DELETE:** Permiso para eliminar filas de una tabla.
-- **ALL PRIVILEGES:** Otorga todos los privilegios disponibles en un objeto.
-- **REFERENCES:** Permiso para crear una clave foránea que referencie la tabla (esencial para la integridad referencial).
-- **CREATE (en bases de datos/esquemas):** Permiso para crear objetos dentro de la base de datos o esquema.
-- **ALTER:** Permiso para modificar la estructura de un objeto (ej., añadir/eliminar columnas).
-- **DROP:** Permiso para eliminar un objeto.
+- `SELECT`: Permiso para leer datos de una tabla o vista.
+- `INSERT`: Permiso para añadir nuevas filas a una tabla.
+- `UPDATE`: Permiso para modificar filas existentes en una tabla. Se puede especificar a qué columnas.
+- `DELETE`: Permiso para eliminar filas de una tabla.
+- `ALL PRIVILEGES`: Otorga todos los privilegios disponibles en un objeto.
+- `REFERENCES`: Permiso para crear una clave foránea que referencie la tabla (esencial para la integridad referencial).
+- `CREATE` (en bases de datos/esquemas): Permiso para crear objetos dentro de la base de datos o esquema.
+- `ALTER`: Permiso para modificar la estructura de un objeto (ej., añadir/eliminar columnas).
+- `DROP`: Permiso para eliminar un objeto.
 
 ### Cláusula Opcional `WITH GRANT OPTION`
 

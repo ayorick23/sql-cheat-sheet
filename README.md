@@ -38,6 +38,7 @@ El repositorio está organizado por temas principales de SQL para facilitar la n
 sql-cheat-sheet/
 ├── .gitattributes
 ├── .gitignore
+├── LICENSE
 ├── README.md
 ├── 01_data_definition_language/
 │   ├── data_definition_language.md
